@@ -1,9 +1,10 @@
+import HeroContainer from "./Hero/HeroContainer";
 
 
 const Home = () => {
     return (
         <div>
-            <h2>this is home page</h2>
+            <HeroContainer/>
         </div>
     );
 };
