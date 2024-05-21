@@ -1,11 +1,16 @@
+import Gallery from "./Gallery/Gallery";
 import HeroContainer from "./Hero/HeroContainer";
 
 
 const Home = () => {
     return (
-        <div>
+        <section>
             <HeroContainer/>
-        </div>
+            <div className="max-w-screen-xl mx-auto">
+            <Gallery/>
+            </div>
+            
+        </section>
     );
 };
 
