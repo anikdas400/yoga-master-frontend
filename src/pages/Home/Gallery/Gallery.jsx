@@ -5,7 +5,7 @@ const Gallery = () => {
     return (
         <div>
             <div className='w-[35%] mx-auto my-16'>
-            <h2 className=' text-5xl font-bold text-center dark:text-white border-b-8  border-double border-emerald-400 rounded-xl'>Gallery section</h2>
+            <h2 className=' text-5xl font-bold text-center dark:text-white border-b-8  border-double border-emerald-400 rounded-xl dark:border-pink-500'>Gallery section</h2>
             </div>
           
 

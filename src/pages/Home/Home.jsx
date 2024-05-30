@@ -1,5 +1,6 @@
 import Gallery from "./Gallery/Gallery";
 import HeroContainer from "./Hero/HeroContainer";
+import PopularClasses from "./PopularClasses/PopularClasses";
 
 
 const Home = () => {
@@ -8,6 +9,9 @@ const Home = () => {
             <HeroContainer/>
             <div className="max-w-screen-xl mx-auto">
             <Gallery/>
+            </div>
+            <div>
+                <PopularClasses/>
             </div>
             
         </section>
