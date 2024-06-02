@@ -3,6 +3,7 @@ import HeroContainer from "./Hero/HeroContainer";
 import PopularClasses from "./PopularClasses/PopularClasses";
 
 
+
 const Home = () => {
     return (
         <section>
@@ -13,6 +14,7 @@ const Home = () => {
             <div>
                 <PopularClasses/>
             </div>
+            
             
         </section>
     );

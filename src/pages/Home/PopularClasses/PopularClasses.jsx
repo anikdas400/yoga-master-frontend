@@ -22,9 +22,9 @@ const PopularClasses = () => {
                 <h2 className="text-5xl  font-bold text-center dark:text-white ">Our <span className="text-orange-500">Popular</span> Classes</h2>
                 <p className="md:text-lg text-sm text-gray-600 mt-5 mb-2 px-10 dark:text-white text-center">Explore Our Popular Classes. Here is some popular classes based on How many student enrolled</p>
             </div>
-            <div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3">
                 {
-                    classes.map((item,index)=><Card key={index} item={item}></Card>)
+                    classes.slice(0,6).map((item)=><Card key={item._id} item={item}></Card>)
                 }
             </div>
         </section>
