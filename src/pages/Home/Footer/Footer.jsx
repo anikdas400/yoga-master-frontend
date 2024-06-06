@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="mb-5">
             <div>
                 <div className="text-center mt-20">
-                    <h2 className="text-2xl font-semibold">Want us to email you with the <br /> latest blockbuster news ?</h2>
+                    <h2 className="text-2xl font-semibold dark:text-white">Want us to email you with the <br /> latest blockbuster news ?</h2>
                     <div className="mt-5">
                         <input className="p-2 rounded-3xl" placeholder="example@company.com" type="email" /> <span><button className="btn bg-secondary p-2 rounded-3xl text-white">Subscribe</button></span>
                     </div>
@@ -59,7 +59,7 @@ const Footer = () => {
                 </div>
             </div>
             {/* reserb */}
-            <div className="text-center mt-10 bg-slate-200 p-5 dark:text-white text-sm">
+            <div className="text-center mt-10 bg-slate-200 p-5 dark:text-gray-500 text-sm">
                 <p>&copy; Company 2024. All Rights Reserved </p>
                 <p>Created With <span className="text-blue-600 text-base">Yoga Master</span></p>
             </div>

@@ -45,7 +45,8 @@ const PopularTeacher = () => {
                 }
                 </div>
                 
-                </> : <></>
+                </> : <>
+                <p className="text-5xl text-center">No Instructor Available</p></>
             }
             
         </section>
