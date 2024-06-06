@@ -9,7 +9,6 @@ const MainLayout = () => {
         <main className="dark:bg-black overflow-hidden">
             <Navbar/>           
             <Outlet/>
-            <h2>footer</h2>
         </main>
     );
 };

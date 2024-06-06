@@ -1,3 +1,4 @@
+import Footer from "./Footer/Footer";
 import Gallery from "./Gallery/Gallery";
 import HeroContainer from "./Hero/HeroContainer";
 import Information from "./Information/Information";
@@ -15,12 +16,9 @@ const Home = () => {
             <PopularClasses/>
             <PopularTeacher/>
             <Information/>
+            <Footer/>
             </div>
-            
-                
-            
-            
-            
+          
         </section>
     );
 };

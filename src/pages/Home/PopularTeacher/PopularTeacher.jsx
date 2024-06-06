@@ -39,9 +39,6 @@ const PopularTeacher = () => {
                                 <FaLinkedin />
                                 <FaFacebook/>
                                 <FaInstagram />
-                            
-                            
-                            
                             </div>
                         </div>
                     ))
